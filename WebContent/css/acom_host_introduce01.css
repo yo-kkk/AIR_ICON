@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body {
+    margin-left	:	-512px;
+    position	:	absolute;
+    width		:	1024px;
+    left		:	50%;
+       
+    margin-top 	:	20px;
+}
+
+.top_line{
+	
+	position	: 	absolute;
+	
+	top			:	100px;
+	left		:	0px;
+	
+	width		:	100%;
+}
+
+
+.img_box{
+	
+	position	: 	absolute;
+	top  		: 	160px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	100%;
+	height		:	400px;
+	
+}
+
+.front_btn{
+	margin-left	:	180px;
+	margin-top	:	-160px; 
+}
+
+.back_img{
+	margin-left	:	112px;
+	width		:	800px; 
+	height		:	400px;
+	z-index		:	0; 
+}
+
+.intro1{
+	
+	position	: 	absolute;
+	top  		: 	600px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	100%;
+	height		:	480px;	
+}
+
+.intro_title{
+	margin-top	:	40px;
+	text-align	:	center; 
+}
+
+.intro_line{
+	position	: 	absolute;
+	
+	top			:	100px;
+	left		:	0px;
+	width		:	100%;
+}
+
+.intro1_01{
+	
+	position	: 	absolute;
+	
+	top  		: 	160px;
+	left 		: 	0px;
+	
+	width 		: 	30%;
+	height		:	320px;
+	
+}
+
+.intro1_02{
+	position	: 	absolute;
+	
+	top  		: 	160px;
+	left 		: 	33%;
+	
+	width 		: 	30%;
+	height		:	320px;
+}
+
+.intro1_03{
+	position	: 	absolute;
+	
+	top  		: 	160px;
+	left 		: 	66%;
+	
+	width 		: 	30%;
+	height		:	320px;
+}
+
+.intro_title_font{
+	
+	text-align: center; 
+	margin-top: 15px;
+	font-weight: bold;
+	
+}
+
+.intro_font{
+	font-size	:	1.0rem;
+	text-align	:	center;
+	line-height	:	2.0rem;  
+}
+
+.intro2{
+	
+	position	: 	absolute;
+	top  		: 	1120px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	100%;
+	height		:	540px;	
+}
+
+.intro2_01{
+	position	: 	absolute;
+	
+	top  		: 	160px;
+	left 		: 	5%;
+	
+	width 		: 	40%;
+	height		:	340px;
+}
+
+.intro2_02{
+	position	: 	absolute;
+	
+	top  		: 	160px;
+	left 		: 	55%;
+	
+	width 		: 	40%;
+	height		:	340px;
+}
+
+.intro3{
+	
+	position	: 	absolute;
+	top  		: 	1660px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	100%;
+	height		:	600px;	
+}
+
+.end_line{
+	position	: 	absolute;
+	
+	bottom		:	0px;
+	left		:	0px;
+	
+	width		:	100%;
+	z-index 	: 	100;
+}
+
+.welcome_img{
+	margin-left	:	212px;
+	width		:	600px; 
+	height		:	400px;
+	
+	z-index 	: 	0;
+}
+
+.intro3_inner{
+	
+	position	: 	absolute;
+	
+	left		:	26%;
+	top			:	300px;
+	
+	width 		: 	500px;
+	height		:	100px;
+	
+	z-index 	: 	100px
+}
+
+
+		  #hostbtn {
+	 
+	  font-size:15px;
+	  font-family: 'Nanum Gothic', sans-serif;
+	  font-weight: bold;
+	 
+	  color: white;
+	  outline:0;
+	  text-align: center;
+	 background:#f78181;
+	  border: solid 2px #f78181 ;
+	  border-radius: 9px;
+	}
+	
+			  #hostbtn:focus {
+	 
+	 
+	  outline:0;
+	
+	}

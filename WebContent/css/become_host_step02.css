@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    margin-left	:	-512px;
+    position	:	absolute;
+    width		:	1024px;
+    left		:	50%;
+       
+    margin-top 	:	20px;
+    
+}
+
+.airicon_button{
+	position	:	absolute;
+	top     	:	0;
+	left    	:	0;
+	z-index 	:	100;
+	
+	margin-top	:	20px;
+	margin-left	:	20px;
+}
+
+.airicon_font{ 
+	font-family	:	'Abril Fatface';
+	font-weight	:	bolder;
+	color      	:	grey; 
+	margin-top 	:	20px; 
+	margin-left	:	10px;
+	font-size  	:	2.0rem;
+	
+}
+
+.step_title{
+	
+	position	: 	absolute;
+	top  		: 	45px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	50%;
+	height		:	70px;
+	
+	margin-top	:	10px;
+	margin-left	:	10px;
+	
+}
+
+.title_font{
+	text-align 	: 	left;
+	font-size  	:	1.0rem;
+	
+	margin-top	:	18px;
+}
+
+.progress_bar{
+	background-color : #c0c0c0;
+	
+	position	: 	absolute;
+	top  		: 	105px;
+	left 		: 	0px;
+	z-index 	: 	0;
+	width 		: 	100%;
+	height		:	10px;
+	
+}
+
+.progress_inner{
+	background-color  : #ff5a5f;
+	
+	position	: 	absolute;
+	
+	top  		: 	0px;
+	left 		: 	0px;
+	z-index 	: 	50;
+	width 		: 	60%;
+	height		:	100%;
+}
+
+.main_box{
+
+	position	: 	absolute;
+	top  		: 	160px;
+	left 		: 	10%;
+	z-index 	: 	0;
+	width 		: 	80%;
+	height		:	1700px;
+	
+}
+
+.ask_02{
+	
+	position	: 	absolute;
+	top  		: 	40px;
+	left 		: 	20%;
+	z-index 	: 	0;
+	width 		: 	70%;
+	height		:	180px;
+}
+
+.ask_03{
+
+	position	: 	absolute;
+	top  		: 	250px;
+	left 		: 	20%;
+	z-index 	: 	0;
+	width 		: 	70%;
+	height		:	600px;	
+	
+	line-height	:	1.7rem;
+}
+
+.ask_04{
+
+	position	: 	absolute;
+	top  		: 	880px;
+	left 		: 	20%;
+	z-index 	: 	0;
+	width 		: 	70%;
+	height		:	340px;	
+	
+}
+
+.ask_05{
+
+	position	: 	absolute;
+	top  		: 	1250px;
+	left 		: 	20%;
+	z-index 	: 	0;
+	width 		: 	70%;
+	height		:	280px;
+}
+
+.intro_font{
+	margin-top	:	10px;
+	margin-bottom	:	10px;
+	font-weight	:	bolder;
+	font-size	:	1.6rem;
+			
+}
+
+.img_preview{
+
+	position	: 	absolute;
+	top  		: 	120px;
+	left 		: 	0%;
+	z-index 	: 	0;
+	width 		: 	85%;
+	height		:	460px;
+	
+}
+
+.img_box{
+	max-height	: 	400px;
+	margin-left	:	40px;
+	border		:	1px solid;
+}
+
+
+.form-control{
+	
+	width 		: 	540px;
+	
+	margin-left	:	15px;
+	
+	border-radius: 	1rem;
+}
+
+.intro_title{	
+	height		:	60px;
+	
+	margin-top	:	10px;
+}
+
+.intro_content{
+
+	margin-top	:	10px;
+}
+
+.back_button{
+	
+	position	: 	absolute;
+	bottom 		: 	80px;
+	left 		: 	8%;
+	z-index 	: 	0;
+	width 		: 	12%;
+	height		:	50px;
+}
+
+.button_font{
+	color		: 	#ff5a5f;
+	font-weight	:	bolder;
+	font-size	:	1.2rem;
+}
+
+.submit_button{
+	
+	position	: 	absolute;
+	bottom 		: 	80px;
+	outline:0;
+	right 		: 	8%;
+	z-index 	: 	0;
+	width 		: 	12%;
+	height		:	50px;
+	
+	 font-size:15px;
+	 font-family: 'Nanum Gothic', sans-serif;
+	  font-weight: bold;
+	  color: white;
+	  outline:0;
+	  text-align: center;
+	  background: #ff5a5f;
+	  border: solid 2px #ff5a5f ;
+	  border-radius: 9px;
+}
+
+.btn{
+	
+	width		:	100%;
+	height		:	100%;
+	
+}

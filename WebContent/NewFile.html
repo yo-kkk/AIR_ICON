@@ -1,0 +1,472 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>New Document</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display" rel="stylesheet">
+	
+	<!-- Css file href -->
+	<link rel="stylesheet" href="css/main.css">
+	
+<style>
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {
+    font-family: "Nanum Gothic"
+}
+
+/*-- POPUP common style S ======================================================================================================================== --*/
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #000000;
+    display: none; }
+  
+#mask2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #000000;
+    display: none; }
+  
+.layerpop {
+    display: none;
+    z-index: 1000;
+    border: 2px solid #ccc;
+    background: #fff;
+    cursor: move; }
+
+    
+
+.layerpop_area .title {
+    padding: 10px 10px 10px 10px;
+    border: 0px solid #aaaaaa;
+    background: #f1f1f1;
+    color: #3eb0ce;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 24px; }
+
+
+.layerpop_area .layerpop_close {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent url('btn_exit_off.png') no-repeat; }
+    
+
+.layerpop_area .layerpop_close:hover {
+    background: transparent url('btn_exit_on.png') no-repeat;
+    cursor: pointer; }
+
+.layerpop_area .content {
+    width: 96%;    
+    margin: 2%;
+    color: #828282; }
+/*-- POPUP common style E --*/
+
+	@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	input[type=text]{
+	    width:300px;
+	   height:35px;
+	   font-size:12px;
+	    border:2px solid #aaa;
+	    border-radius:4px;
+	    margin:8px 0;
+	    outline:none;
+	    padding:8px;
+	    box-sizing:border-box;
+	    transition:.3s;
+	  }  
+	  input[type=text]:focus{
+	    border-color:dodgerBlue;
+	    box-shadow:0 0 8px 0 dodgerBlue;
+	  }
+		
+		
+	  input[type=password]{
+	    width:300px;
+	   height:35px;
+	   font-size:12px;
+	    border:2px solid #aaa;
+	    border-radius:4px;
+	    margin:8px 0;
+	    outline:none;
+	    padding:8px;
+	    box-sizing:border-box;
+	    transition:.3s;
+	  }  
+	  input[type=password]:focus{
+	    border-color:dodgerBlue;
+	    box-shadow:0 0 8px 0 dodgerBlue;
+	  }
+	  
+	  
+	
+		  
+	  #xbutton {
+	  width: 30px;
+	  height: 30px;
+	  font-size:20px;
+	  font-family: 'Nanum Gothic';
+	  font-weight: bold;
+	  color: #3eb0ce;
+	  outline:0;
+	  text-align: center;
+	 background: transparent;
+	  border: solid 2px transparent ;
+	  border-radius: 100%; 
+	  overflow: none; 
+
+	}
+	  
+	  input[type=email]{
+	     width:300px;
+	   height:35px;
+	   font-size:12px;
+	    border:2px solid #aaa;
+	    border-radius:4px;
+	    margin:8px 0;
+	    outline:none;
+	    padding:8px;
+	    box-sizing:border-box;
+	    transition:.3s;
+	  }  
+	  input[type=email]:focus{
+	    border-color:dodgerBlue;
+	    box-shadow:0 0 8px 0 dodgerBlue;
+	  }
+	 
+	 input[type=tel]{
+	   width:300px;
+	   height:35px;
+	  font-size:12px;
+	    border:2px solid #aaa;
+	    border-radius:4px;
+	    margin:8px 0;
+	    outline:none;
+	    padding:8px;
+	    box-sizing:border-box;
+	    transition:.3s;
+	  }  
+	  input[type=number]:focus{
+	    border-color:dodgerBlue;
+	    box-shadow:0 0 8px 0 dodgerBlue;
+	  }
+	
+	input[type=date]{
+	   width:150px;
+	   height:35px;
+	  font-size:12px;
+	    border:2px solid #aaa;
+	    border-radius:4px;
+	    margin:8px 0;
+	    outline:none;
+	    padding:8px;
+	    box-sizing:border-box;
+	    transition:.3s;
+	  }  
+	  input[type=date]:focus{
+	    border-color:dodgerBlue;
+	    box-shadow:0 0 8px 0 dodgerBlue;
+	  }
+
+	
+	#btn1 {
+	  width: 300px;
+	  height: 35px;
+	 font-size:18px;
+	  font-family: 'Nanum Gothic';
+	  font-weight: bold;
+	  color: white;
+	  outline:0;
+	  text-align: center;
+	  background: #ff5a5f;
+	  border: solid 2px #ff5a5f ;
+	  border-radius: 9px;
+	}
+	
+	.font_bold{
+		 font-weight: bold;
+		 font-size:14px;
+		 }
+		 
+		 
+		 
+	</style>
+	
+	
+
+</style>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> 
+<!--드래그 할수 있는 기능을 사용하기 위해서 draggable();-->
+
+<script>
+		
+
+document.getElementById('birth').value = new Date().toISOString().substring(0, 10);;
+
+
+
+	
+
+    function wrapWindowByMask() {
+        //화면의 높이와 너비를 구한다.
+        var maskHeight = $(document).height(); 
+        var maskWidth = $(window).width();
+
+        //문서영역의 크기 
+        console.log( "document 사이즈:"+ $(document).width() + "*" + $(document).height()); 
+        //브라우저에서 문서가 보여지는 영역의 크기
+        console.log( "window 사이즈:"+ $(window).width() + "*" + $(window).height());        
+
+        //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채운다.
+        $('#mask').css({
+            'width' : maskWidth,
+            'height' : maskHeight
+        });
+
+        //애니메이션 효과
+        //$('#mask').fadeIn(1000);      
+        $('#mask').fadeTo("slow", 0.5);
+    }
+
+    
+   
+    <!-- 로그인 popup-->
+    function popupOpen() {
+        $('.layerpop').css("position", "absolute");
+        //영역 가운에데 레이어를 뛰우기 위해 위치 계산 
+        $('.layerpop').css("top",(($(window).height() - $('.layerpop').outerHeight()) / 2) + $(window).scrollTop());
+        $('.layerpop').css("left",(($(window).width() - $('.layerpop').outerWidth()) / 2) + $(window).scrollLeft());
+        $('.layerpop').draggable();
+        $('#layerbox').show();
+    }
+    <!-- 회원가입 popup-->		
+    function popupOpen2() {
+        $('.layerpop').css("position", "absolute");
+        //영역 가운에데 레이어를 뛰우기 위해 위치 계산 
+        $('.layerpop').css("top",0);
+        $('.layerpop').css("left",(($(window).width() - $('.layerpop').outerWidth()) / 2) + $(window).scrollLeft());
+        $('.layerpop').draggable();
+        $('#layerbox2').show();
+    }
+    
+    <!--로그인 popup close-->
+
+    function popupClose() {
+        $('#layerbox').hide();
+        $('#mask').hide();
+    }
+    <!--회원가입 popup close-->
+    function popupClose2() {
+        $('#layerbox2').hide();
+        $('#mask').hide();
+    }
+	
+    function goDetail() {
+
+        /*팝업 오픈전 별도의 작업이 있을경우 구현*/ 
+		popupClose2() ;
+        popupOpen(); //레이어 팝업창 오픈 
+        wrapWindowByMask(); //화면 마스크 효과 
+    }
+    
+    
+  
+    function goDetail2() {
+		
+        /*팝업 오픈전 별도의 작업이 있을경우 구현*/ 
+		popupClose() ;
+        popupOpen2(); //레이어 팝업창 오픈 
+        wrapWindowByMask(); //화면 마스크 효과 
+    } 
+    
+    <!-- 숫자만 입력받기 -->
+	function onlyNumber(event){
+		event = event || window.event;
+		var keyID = (event.which) ? event.which : event.keyCode;
+		if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+			return;
+		else
+			return false;
+	}
+	function removeChar(event) {
+		event = event || window.event;
+		var keyID = (event.which) ? event.which : event.keyCode;
+		if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+			return;
+		else
+			event.target.value = event.target.value.replace(/[^0-9]/g, "");
+	}
+
+</script>
+
+
+</head>
+
+<body>
+
+    <button onClick="javascript:goDetail('테스트1');">로그인</button>
+ 	    <button onClick="javascript:goDetail2('테스트2');">회원가입</button>
+ 	   
+    <div > </div>
+	<!-- 로그인 화면 -->
+    <!-- 팝업뜰때 배경 -->
+    <div id="mask"></div>
+	
+    <!--Popup Start -->
+    <div id="layerbox" class="layerpop"
+        style="width: 500px; height: 320px;">
+        <article class="layerpop_area"> 
+        <div class="title">
+        <div class="close_button" style="text-align:right; "> <input type="button" id="xbutton" name="xbutton"  value="x" onClick="javascript:popupClose();"/></div><div class="btn-r" style="text-align:center;">로그인</div>
+                   
+                </div>
+        <div class="content">
+        
+        
+                
+<form action="login_action.jsp" method="post">
+	<center>
+	<table>
+	<!-- <caption><h1 style="font-family:'Nanum Gothic'"> </h1></caption> -->
+	<tr>
+	<td>
+	<input type="text" id="idit" name="idit" placeholder="아이디" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<input type="password" id="passwordinput" name="passwordinput" placeholder="비밀번호" required="required" /><br/>
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="submit" id="btn1" name="btn1"  value="로그인" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<br/>	
+	계정이 없으세요?&emsp;<a onClick="javascript:goDetail2('테스트2');" style="color:#3ba0a4">회원가입</a>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	
+	</td>
+	</tr>
+	</table>
+	</center>
+	</form></div>
+	
+	
+	
+        </article>
+    </div>
+    <!--로그인 Popup End -->
+  
+  		<!-- 회원가입 화면 -->
+  
+      <!-- 팝업뜰때 배경 -->
+    <div id="mask"></div>
+	
+    <!--Popup Start -->
+    <div id="layerbox2" class="layerpop"
+        style="width: 500px; height: 720px;">
+        <article class="layerpop_area"> 
+        <div class="title">
+        <div class="close_button" style="text-align:right; "> <input type="button" id="xbutton" name="xbutton"  value="x" onClick="javascript:popupClose2();"/></div><div class="btn-r" style="text-align:center;">회원가입</div>
+                   
+                </div>
+ 
+        <div class="content">
+	<form method="post" action="SignUp_action.jsp">
+
+	<center>	
+	<table>
+
+	<tr>
+	<td colspan="2" align="center">
+	<input type="text" id="id" name="id" placeholder="아이디" required="required"/>
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="text" id="name" name="name" placeholder="이름" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="password" id="passwordinput" name="passwordinput" placeholder="비밀번호" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="password" id="passwordcheck" name="passwordcheck" placeholder="비밀번호 확인" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="email" id="email"  name="email" placeholder="이메일 주소" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="text" id="tel" name="tel" placeholder="전화번호" required="required" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' style="ime-mode:disabled;" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<input type="text" id="address" name="address" placeholder="주소" required="required" />
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p class="font_bold">생년월일</p>
+	</td>
+	<td>
+	<p class="font_bold">성별</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<input type="date" id="birth" name="birth" required="required" />
+	</td>
+	<td>
+	<label>남자</label>
+	<input type="radio" name="chk_info" vflue="m" checked="checked"/>
+	<label>여자</label>
+	<input type="radio" name="chk_info" value="f"/>
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	<br/>
+	<input type="submit" id="btn1"  value="가입하기" />
+	</td>
+	</tr>
+	</table>	
+	
+	</center>
+	</form>
+ </div>
+         
+        </article>
+    </div>
+    <!-- 회원가입 Popup End -->
+    
+
+</body>
+</html>

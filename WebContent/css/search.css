@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	margin: 20px auto;
+	width: 1500px;
+}
+
+.left_img{
+	background-image:url('../images/main.jpg');
+ 	background-size: cover;
+ 	background-position: center;
+ 	height : 750px
+}
+ 	
+.top_margin{
+	margin-top: 20px;
+}
+
+.bottom_halfmargin{
+	margin-bottom: 20px;
+}
+
+.bottom_margin{
+	margin-bottom: 40px;
+}
+
+.airicon_button{ 
+	font-family: 'Abril Fatface';
+	font-weight: bolder;
+	color: grey; 
+	margin-top: 20px; 
+	margin-left: 10px;
+	font-size: 2.0rem;
+	
+}
+
+.right_top{
+	margin-top: 20px; 
+	text-align: right;
+}
+
+.right_button{
+	font-family: 'Abril Fatface';
+	font-weight: bolder;
+	color: grey; 
+	margin-top: 20px; 
+	margin-left: 10px;
+	font-size: 1rem;
+}
+
+.right_main{
+	position: absolute;
+    top: 75px;
+	padding-left: 20px;	
+	margin-right: 50px;
+	
+}
+
+.intro{
+	color: black;
+	font-weight: 300;
+	text-align: center;
+	line-height:1.35em;
+	letter-spacing:2px;
+}
+
+
+.form-group>input {
+  border-radius: 2rem;
+}
+
+.form-group>select {
+  border-radius: 2rem;
+}
+
+.form-group>button {
+  border-radius: 2rem;
+}

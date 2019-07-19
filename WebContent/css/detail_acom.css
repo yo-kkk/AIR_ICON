@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+*{
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+	width:100%;
+    height		:	100%;
+    overflow-x:hidden;
+}
+
+.datepicker.dropdown-menu {
+    min-width:28%;
+}
+
+
+  #table1 {
+    width: 100%;
+    border: 1px solid #444444;
+    
+  }
+  #table_td1 {
+    border: 1px solid #444444;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  
+  }
+  
+  
+#floatMenu {position:absolute;
+    width:400px;
+    left:102%;
+    top:100px;
+     border: solid 1px #b6b6b6;
+    
+    height:530px;}
+    
+    #resrv2 {
+    position:absolute;
+    
+    left:50px;
+    top:30px;
+    
+    
+    }
+    
+    .btn7{
+    
+   width:300px;
+	  height: 40px;
+	  font-size:15px;
+	  font-family: 'Nanum Gothic', sans-serif;
+	  font-weight: bold;
+	  color: white;
+	  outline:0;
+	  text-align: center;
+	  background: #ff5a5f;
+	  border: solid 2px #ff5a5f ;
+	  border-radius: 9px;
+    
+    
+    }
+    
+    #cdiv{
+     width:200px;
+	
+    
+    height:150px;
+    
+    }
+    
+.resrvbtn{
+  background:#F78181;
+  color:#fff;
+  border:none;
+  position:relative;
+ height:50px; 
+  font-size:1.4em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  letter-spacing: -2px;
+  text-align:center;
+  width: 300px;
+  border-radius	: 	2rem;
+}
+
+.resrvbtn:hover{
+  background:#fff;
+  color:#F78181;
+  text-align:center;
+}
+.resrvbtn:before,.resrvbtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #F78181;
+  transition:400ms ease all;
+  text-align:center;
+}
+.resrvbtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+  text-align:center;
+}
+.resrvbtn:hover:before,.resrvbtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+  text-align:center;
+}    
+
+.resrvbtn:focus{
+	
+	outline:0;
+}
+
+#reviewbtn,msgbtn,send_msg_btn{
+	
+	
+	  width:205px;
+	  height: 20px;
+	  font-size:15px;
+	  font-family: 'Nanum Gothic', sans-serif;
+	  font-weight: bold;
+	  
+	  color: #914669;
+	  outline:0;
+	  
+	  background:  transparent;
+	  border: 0 ;
+	  
+	
+}
+

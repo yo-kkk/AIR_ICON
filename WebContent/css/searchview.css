@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+span.star-prototype, span.star-prototype > * {
+    height: 16px; 
+    background: url(http://i.imgur.com/YsyS5y8.png) 0 -16px repeat-x;
+    width: 80px;
+    display: inline-block;
+}
+ 
+span.star-prototype > * {
+    background-position: 0 0;
+    max-width:80px; 
+}
+
+#conv{
+	
+	position:absolute;
+	top:152px;
+	left:105px;
+
+	
+}
+
+#conv2{
+	
+	position:absolute;
+	top:177px;
+	left:105px;
+
+	
+}
+
+#conv3{
+	
+	position:absolute;
+	top:150px;
+	left:20px;
+
+	
+}
+
+
+#top_with_login_ul {
+  letter-spacing: -2px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+.dropdown-menu a:hover{
+	background-color: rgba(255, 0, 0, 0);
+	font-weight:bolder;
+}
+
+.top_li a {
+  display: block;
+  color: #000;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left	:	2px;
+
+}
+
+li a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+ #btn4 {
+	  width:40px;
+	  height: 27px;
+	  font-size:15px;
+	 font-family: 'Nanum Gothic', sans-serif;
+	  font-weight: bold;
+	  color: white;
+	  outline:0;
+	  text-align: center;
+	  background: #ff5a5f;
+	  border: solid 1px #ff5a5f ;
+	  border-radius: 5px;
+	}

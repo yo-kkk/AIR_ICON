@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body {
+    margin-left	:	-512px;
+    position	:	absolute;
+    width		:	1024px;
+    left		:	50%;
+       
+    margin-top 	:	20px;
+}
+
+.top_line{
+	
+	position	: 	absolute;
+	
+	top			:	100px;
+	left		:	0px;
+	
+	width		:	100%;
+}
+
+.user_info{
+
+	position	: 	absolute;
+	
+	top			:	200px;
+	left		:	15%;
+	
+	width		:	22.5%;
+	height		:	270px;
+	
+}
+
+.msg_img{
+	max-width	:	260px;
+}
+
+
+.message_write{
+	position	: 	absolute;
+	
+	top			:	200px;
+	left		:	40%;
+	
+	width		:	45%;
+	height		:	270px;
+	
+}
+
+.write_content{
+	
+	width 		: 	430px;
+	
+	margin-top	:	15px; 
+	margin-left	:	15px;
+	
+	
+}
+
+.sender_font{
+	margin-top	:	10px;
+	margin-left	:	30px;
+}
+
+.send_btn{
+	position	:	absolute;
+	right		:	20px;
+	bottom		: 	5px;
+}
+
+
+.detail_fullbox{
+	position	: 	absolute;
+	
+	top			:	520px;
+	left		:	15%;
+	
+	width		:	70%;
+	
+	margin-bottom: 	200px;
+}
+
+.msg_line{
+	position	: 	absolute;
+	
+	top			:	-20px;
+	left		:	0px;
+	
+	width		:	100%;
+}
+
+.msg_box{
+	width		:	100%;
+	height		:	195px;
+	margin-bottom: 	5px
+}
+
+.send_content{
+	width 		: 	440px;
+	
+	margin-top	:	20px;
+	margin-left	:	15px;
+}
+
+.getter_content{
+	width 		: 	440px;
+	
+	margin-top	:	20px; 
+	margin-left :	260px;
+}
+
+.sender_id{
+	font-size	:	1.8rem;
+	text-align	:	center;	
+	
+	margin-left	:	480px; 
+	margin-top	:	-100px;
+
+}
+
+.sender_date{
+	font-size	:	1.0rem;
+	text-align	:	center;
+	
+	margin-left	:	460px; 
+	margin-top	:	40px;
+	
+}
+
+.getter_id{
+	font-size	:	1.8rem;
+	text-align	:	center;	
+	
+	margin-left	:	-480px; 
+	margin-top	:	-110px;
+	
+}
+
+.getter_date{
+	font-size	:	1.0rem;
+	
+	text-align	:	center;
+	
+	margin-left	:	-490px; 
+	margin-top	:	45px;
+	
+}
+
+
+.form-control{
+	
+	border-radius: 	1rem;
+}
+
+

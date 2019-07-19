@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+*{
+ font-family: 'Nanum Gothic', sans-serif;
+ background-image:url('images/main.jpg');
+}
+
+body{
+	magin-top:100px;
+	padding-top:80px;
+	height:800px;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+
+.datepicker.dropdown-menu {
+    margin:0 auto;
+}
+
+.main_all{
+	margin: 0 auto;
+	
+}
+
+.img_box{
+	margin: 0 auto;
+	position: absolute;
+	z-index 	: 	-1;
+	width 		: 	1024px;
+ 	min-height: 80%;
+ 	min-width: 1024px;
+}
+
+.back_img{	
+	margin : 0 auto;
+	top : 0;
+	height:1024px;
+	
+}
+
+.form_box{
+	margin : 0 auto;
+	z-index 	:	0;
+	width 		: 	400px;
+	background-color: white;
+	padding-top:50px;
+}
+
+.form_center{
+
+	border:1px #1C1C1C solid;
+	margin : 0 auto;
+	width 		: 	500px;
+	background-color: white;
+	height: 550px;
+}
+
+.intro{
+	color		: 	black;
+	font-weight	: 	300;
+	line-height	:	1.35em;
+	letter-spacing:	2px;
+	text-align	: 	center;
+}
+
+.bottom_margin{
+	margin-bottom: 	40px;
+}
+
+.form-group>input {
+  border-radius	: 	2rem;
+  margin-bottom	: 	20px;
+}
+
+.form-group>select {
+  border-radius	: 	2rem;
+  margin-bottom	: 	20px;
+}
+
+.form-group>button {
+  border-radius	: 	2rem;
+  
+}
+
+.date_on{
+	border-radius: 	2rem;
+
+}
+
+.intro{
+	letter-spacing: -4px;
+	text-align:left;
+
+}
+
+.btn-search{
+  background:#F78181;
+  color:#fff;
+  border:none;
+  position:relative;
+ height:50px; 
+  font-size:1.4em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:0;
+  letter-spacing: -2px;
+  text-align:center;
+  width: 100%;
+
+}
+
+.btn-search:hover{
+  background:#fff;
+  color:#F78181;
+  text-align:center;
+}
+.btn-search:before,.btn-search:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #F78181;
+  transition:400ms ease all;
+  text-align:center;
+}
+.btn-search:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+  text-align:center;
+}
+.btn-search:hover:before,.btn-search:hover:after{
+  width:100%;
+  transition:800ms ease all;
+  text-align:center;
+}
+.btn-search:focus{
+	
+	outline: :0;
+}
+
+

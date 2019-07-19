@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    margin-left	:	-512px;
+    position	:	absolute;
+    width		:	1024px;
+    left		:	50%;
+       
+    margin-top 	:	20px;
+}
+.search_bar{
+	position 		:	absolute;
+	z-index			:	100;
+	top				:	26px;
+	left			:	180px;
+	height			:	35px;	
+}
+
+
+
+

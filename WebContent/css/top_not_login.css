@@ -1,0 +1,160 @@
+@charset "UTF-8";
+*{
+ background-color: rgba(255, 0, 0, 0);
+}
+
+body {
+    margin-left	:	-512px;
+    position	:	absolute;
+    width		:	1024px;
+    left		:	50%;   
+    margin-top 	:	20px;
+ 	background-color: rgba(255, 0, 0, 0);
+}
+
+.modal-body{
+	 font-family: 'Roboto Slab', serif;
+	 
+}
+
+a:hover {
+	color      	:	#F78181; 
+	text-decoration: none;
+	
+}
+
+.modal-title{
+	font-weight:bolder;
+}
+
+.top_not_login{
+	height		:	100px;
+}
+
+#loginbtn{
+	background-color: rgba(255, 0, 0, 0);
+	color:black;
+	border:0;
+	border-radius	: 	0;
+	outline:0;
+}
+#loginbtn:focus{
+	
+	outline:0;
+}
+
+#signupbtn{
+	background-color: rgba(255, 0, 0, 0);
+	color:black;
+	border:0;
+	border-radius	: 	0;
+	outline:0;
+}
+
+.btn btn-primary:focus{
+	
+	outline:0;
+}
+.airicon_button{
+	position	:	absolute;
+	top     	:	0;
+	left    	:	0;
+	z-index 	:	100;
+	background-color: rgba(255, 0, 0, 0);
+	margin-top	:	20px;
+	margin-left	:	20px;
+}
+
+.airicon_button:hover{
+	color	:	#F78181;
+
+}
+
+
+.airicon_font{ 
+	font-family	:	'Permanent Marker', cursive;
+	font-weight	:	bolder;
+	color      	:	black; 
+	margin-top 	:	20px; 
+	margin-left	:	10px;
+	font-size  	:	2.0rem;
+	
+	
+}
+
+.banner_button{
+	position	:	absolute;
+	top     	:	0;
+	right   	:	0;
+	z-index 	:	100;
+	text-align	:	right;	
+	margin-top	:	35px;
+	margin-right:	50px;
+}
+
+.banner_font{
+	font-family	:	'Abril Fatface';
+	font-weight	:	bolder;
+	color	   	:	grey; 
+	margin-top 	:	40px; 
+	margin-left	:	20px;
+	font-size  	:	1rem;
+}
+
+#loginbtn:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+#signupbtn:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+.submitbtn{
+  background:#F78181;
+  color:#fff;
+  border:none;
+  position:relative;
+ height:50px; 
+  font-size:1.4em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  letter-spacing: -2px;
+  text-align:center;
+  width: 100%;
+  border-radius	: 	2rem;
+}
+
+.submitbtn:hover{
+  background:#fff;
+  color:#F78181;
+  text-align:center;
+}
+.submitbtn:before,.submitbtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #F78181;
+  transition:400ms ease all;
+  text-align:center;
+}
+.submitbtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+  text-align:center;
+}
+.submitbtn:hover:before,.submitbtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+  text-align:center;
+}
